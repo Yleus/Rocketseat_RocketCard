@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    vertical-align: baseline;
+    border: none;
+}
+
+:root {
+    font-size: 62.5%;
+    --bg: #000000;
+    --bg-card: #0E1218;
+    --text: #F1F1F1;
+    --img-profile: #8257e5;
+    --buttons: #FFF;
+    --border-button: #1A1A1A;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    background-color: var(--bg);
+    width: 100vw;
+    height: 100vh;
+    color: var(--text);
+
+}
+
+.container {
+    background-color: var(--bg-card);
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    gap: 146px;
+    
+    align-items: center;
+
+
+    
+    
+    
+}
+
+.box-left {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    
+
+    
+}
+
+.box-left p{
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+#card {
+    width: 43.8rem;
+    height: 69.3rem;
+    background-color: var(--bg-card);
+    border: 2.4rem solid var(--bg);
+    border-radius: 5.0rem;
+
+    position: relative;
+
+    overflow: hidden;
+
+    
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    gap: 1.9rem;
+    margin-top: 3.778rem;
+    margin-left: 3.358rem;
+}
+
+.first-img {
+    width: 5.542rem;
+    height: 5.444rem;
+    border: .1rem solid #F1F1F1;
+    border-radius: 50%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-img img {
+    width: 3.014rem;
+    height: 3.694rem;
+}
+
+.username h2 {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    
+    color: #FFFFFF;
+    
+}
+
+.avatar {
+    width: 37.2rem;
+    height: 37.023rem;    
+    border: 1.0rem solid #8257E5;
+    border-radius: 30.0rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    left: 76px;
+   
+    margin-top: 1.176rem;
+    
+    
+}
+
+.avatar img {
+   width: 100%;
+   height: auto;
+   border-radius: 50%;
+
+   
+}
+
+.box-right {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.box-right p {
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.box-right button{
+    width: 229px;
+    height: 59.47px;
+
+    background: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+
+.second-img {
+    display: flex;
+    gap: 10px;
+
+    position: absolute;
+    bottom: 27px;
+    right: 21.59px;
+}
+
+.second-img img {
+    width: 28px;
+    height: 34.32px;
+}
+
+.second-img h1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+}
+
+.list {
+    width: 20.313rem;
+    height: 19.47rem;
+    background: linear-gradient(180deg, #000000 3.65%, rgba(70, 69, 69, 0.72) 53.65%, rgba(62, 56, 56, 0.42) 100%);
+    border-radius: 5.0rem;
+    
+    
+
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 21.13px;
+    bottom: 121px;
+
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 20px;
+    gap: 8px;
+
+}
+
+.list div {
+    display: flex;
+    gap: 9.04px;
+    width: 100%;
+}
+
+.list p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+    color: #FFFFFF;
+}
+
+.list div:nth-child(5) p {
+    text-align: left;
+}
+
+
+.styleInputText {
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.styleInputSubmit {
+    width: 70px;
+    height: 30px;
+    
+
+    text-align: center;
+
+    background: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+@media (max-width: 915px) {
+    .container {
+        flex-direction: column;
+        justify-content: none;
+        gap: 30px;
+    }
+
+    :root {
+        font-size: 40%;
+    }
+
+    .list div img {
+        width: 2.079rem;
+        height: 2.079rem;
+    }
+    
+    
+}

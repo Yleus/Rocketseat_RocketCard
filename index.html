@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Card</title>
+    <link rel="stylesheet" href="/style.css">
+    <script type="module" src="/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box-left">
+            <p>Compartilhe seu #rocketcard</p>
+            <div id="card">
+                <div class="username">
+                    <div class="first-img">
+                        <img src="/assets/logo.svg" alt="">
+                    </div>
+                    <h2 id="apih2">User</h2>
+                </div>
+
+                <div class=avatar>
+                    <img id="photo" src="" alt="">
+                </div>
+
+                <div class="list">
+                    <div>
+                        <img src="/assets/following.svg" width=20.79px height=20.79px alt="">
+                        <p id="apiFollowers"></p> 
+                        <p>Seguidores</p>
+                    </div>
+
+                    <div>
+                        <img src="/assets/followers.svg" width=20.79px height=20.79px alt="">
+                        <p id="apiFollowing"></p>
+                        <p>Seguindo</p>
+                    </div>
+
+                    <div>
+                        <img src="/assets/repository.svg" width=20.79px height=20.79px alt="">
+                        <p id="publicRepos"></p>
+                        <p>Repositórios</p>
+                    </div>
+
+                    <div>
+                        <img src="/assets/company.svg" width=20.79px height=20.79px alt="">
+                        <p id="apiCompany"></p>
+                    </div>
+
+                    <div>
+                        <img src="/assets/location.svg" width=20.79px height=20.79px alt="">
+                        <p id="apiLocation"></p>
+                    </div>
+
+                </div>
+
+                <div class="second-img">
+                    <img src="/assets/logo.svg" alt="">
+                    <h1>ROCKETCARD</h1>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="box-right">
+            <form action="">
+                <input class="styleInputText" type="text" id="name" name="name" required placeholder="Digite seu usuário">
+                <input class="styleInputSubmit" type="submit" id="send" value="Enviar">
+            </form>
+            <p>Customizar Rocketcard</p>            
+            <button id="btn">Gerar Background</button>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>
