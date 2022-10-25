@@ -1,6 +1,6 @@
 ## Desafio Rocket Card
 
-
+<p align="center">
 <img src="./.github/preview_AdobeExpress.gif" alt="preview"></p>
 
 # Descrição do projeto
